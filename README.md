@@ -29,7 +29,12 @@ Accès à la console pour vérifier la structure de la BDD
 ### Colonnes de chaque table
 > ```timestamps``` est présent dans chaque table sous la forme  
 > ```t.datetime "created_at", null: false```  
-> ```t.datetime "updated_at", null: false```   
+> ```t.datetime "updated_at", null: false```  
+
+* **table** ```users```
+    * "first_name" (string)
+    * "last_name" (string)
+    * "email" (string)
 
 * **table** ```articles```
     * "title" (string)
@@ -52,7 +57,3 @@ Accès à la console pour vérifier la structure de la BDD
     * "article_id" **(foreign key)**
     * "user_id" **(foreign key)**
 
-* **table** ```users```
-    * "first_name" (string)
-    * "last_name" (string)
-    * "email" (string)
